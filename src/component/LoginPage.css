@@ -1,0 +1,146 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-half {
+    flex: 1;
+    background-color: black;
+   }
+
+   .center{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 23vh;
+    font-size: 3.5rem;
+   }
+  
+  .right-half {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+  }
+  .card{
+    padding: 2rem;
+    border: solid black;
+    border-radius: 10px;
+  } 
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  button {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #0077ff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+
+  .forgot-password {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  
+  .forgot-password a {
+    color: #0077ff;
+    text-decoration: none;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+
+  .but {
+    
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 3px;
+  }
+  
+  .google-button {
+    margin-right:6px;
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .apple-button {
+    display: flex;
+    flex-direction: left;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .apple-button:hover {
+    background-color: #333;
+  }
+
+  .register-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .register-link a {
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+  input{
+    background-color: #EEEEEE;
+   
+  }
+
+  
+  
+  
+  
